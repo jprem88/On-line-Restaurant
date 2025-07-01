@@ -18,13 +18,13 @@ namespace Mango.Web.Controllers
             _logger = logger;
             _productService = productService;
             _cartService = cartService;
-        }
+        } 
 
         public async Task<IActionResult> Index()
         {
             List<ProductDto> lst = null;
             var response = await _productService.GetAllProductAsync();
-            if (response != null && response.IsSuccess)
+            if (response != null && response.IsSuccess) 
             {
                 lst = JsonConvert.DeserializeObject<List<ProductDto>>(Convert.ToString(response.Result));
             }

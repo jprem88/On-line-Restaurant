@@ -1,9 +1,9 @@
 ﻿@model ProductDto
 
-<form asp-action="ProductDelete">
+<form asp-action="DeleteProduct">
     <br />
     <div class="container border p-3">
-        <h1 class="text-white text-center">Create Product</h1>
+        <h1 class="text-white text-center">Delete Product</h1>
         <input type="hidden" asp-for="ProductId" />
         <hr />
         <div class="row">
@@ -12,21 +12,19 @@
             </div>
             <div class="col-10 pb-3">
                 <input asp-for="Name" class="form-control" disabled/>
-                <span asp-validation-for="Name" class="text-danger"></span>
             </div>
             <div class="col-2">
                 <label class="control-label pt-2" style="font-size:20px;">Category Name</label>
             </div>
             <div class="col-10 pb-3">
                 <input asp-for="Category" class="form-control" disabled />
-                <span asp-validation-for="Category" class="text-danger"></span>
             </div>
             <div class="col-2">
                 <label class="control-label pt-2" style="font-size:20px;">Description</label>
             </div>
             <div class="col-10 pb-3">
                 <textarea asp-for="Description" class="form-control" rows="5"></textarea>
-                <span asp-validation-for="Description" class="text-danger"></span>
+               
             </div>
             <div class="col-2">
                 <label class="control-label pt-2" style="font-size:20px;">ImageUrl</label>
@@ -39,14 +37,14 @@
             </div>
             <div class="col-10 pb-3">
                 <input asp-for="Price" class="form-control" disabled />
-                <span asp-validation-for="Price" class="text-danger"></span>
+              
             </div>
             <div class="col-5 offset-2">
-
-                <a asp-action="Index" class="btn-primary btn form-control ">Back to List</a>
+                 
+                <a asp-action="ProductIndex" class="btn-primary btn form-control ">Back to List</a>
             </div>
             <div class="col-5">
-                <input type="submit" value="Create" class="btn btn-success form-control" />
+                <input type="submit" value="Delete" class="btn btn-danger form-control" />
             </div>
         </div>
     </div>
