@@ -43,6 +43,11 @@ CodeCoverage/
 
 # MSBuild Binary and Structured Log
 *.binlog
+.vs/
+*.user
+*.suo
+bin/
+obj/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
@@ -52,3 +57,5 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+.vs/Mango/FileContentIndex/b6f54c7a-d25b-4b38-9965-c4987035b30c.vsidx
+.vs/Mango/FileContentIndex/ef044424-5bce-4983-b9af-50dbf81f1674.vsidx
