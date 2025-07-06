@@ -11,15 +11,45 @@ namespace Mango.Web.Controllers
     public class ShopingCartController : Controller
     {
         private readonly ICartService _cartService;
-        public ShopingCartController(ICartService cartService)
+        private readonly IOrderService _orderService;
+        public ShopingCartController(ICartService cartService, IOrderService orderService)
         {
             _cartService = cartService;
+            _orderService = orderService;
         }
         [Authorize]
         public async Task<IActionResult> CartIndex()
         {
             CartDto cartDto = await GetCartList();
             return View(cartDto);
+        }
+
+        [HttpGet]
+        [Authorize]
+        public async Task<IActionResult> Checkout()
+        {
+            CartDto cartDto = await GetCartList();
+            return View(cartDto);
+        }
+
+        [HttpPost]
+        //[ActionName("Checkout")]
+        [Authorize]
+        public async Task<IActionResult> Checkout(CartDto cartDto)
+        {
+            var cart = await GetCartList();
+            cart.CartHeader.Email = cartDto.CartHeader.Email;
+            cart.CartHeader.Name = cartDto.CartHeader.Name;
+            cart.CartHeader.Phone = cartDto.CartHeader.Phone;
+            var response = await _orderService.CreateOrderAsync(cart);
+            var order = JsonConvert.DeserializeObject<OrderHeaderDto>(Convert.ToString(response.Result));
+            if(response !=null && response.IsSuccess)
+            {
+                //////////  stripe logic
+            }
+            return View();
+
+          
         }
 
         public async Task<IActionResult> Remove(string cartDetailsId)

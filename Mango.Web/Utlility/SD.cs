@@ -6,6 +6,7 @@
         public static string AuthApiBase { get; set; }
         public static string ProductApiBase { get; set; }
         public static string ShopingCartApiBase { get; set; }
+        public static string OrderApiBase { get; set; }
 
 
 

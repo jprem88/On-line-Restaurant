@@ -3,6 +3,7 @@ using Mango.Services.ShopingCartApi.Data;
 using Mango.Services.ShopingCartApi.Models;
 using Mango.Services.ShopingCartApi.Models.Dto;
 using Mango.Services.ShopingCartApi.Service.IService;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -11,8 +12,10 @@ using System.Reflection.PortableExecutable;
 
 namespace Mango.Services.ShopingCartApi.Controllers
 {
+    
     [Route("api/cart")]
     [ApiController]
+    [Authorize]
     public class CartController : ControllerBase
     {
         private ResponseDto _responseDto;
@@ -58,7 +61,11 @@ namespace Mango.Services.ShopingCartApi.Controllers
 
                         var product = await _productService.GetProducts();
                         item.Product = product.FirstOrDefault(x=>x.ProductId == item.ProductId);
-                        totalvalue += (item.Product.Price * item.Count);
+                        if(item.Product !=null)
+                        {
+                            totalvalue += (item.Product.Price * item.Count);
+                        }
+                        
                     
                     }
 
