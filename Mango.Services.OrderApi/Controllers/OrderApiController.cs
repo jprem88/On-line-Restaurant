@@ -7,6 +7,7 @@ using Mango.Services.OrderApi.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 using Stripe;
 using Stripe.Checkout;
 
@@ -69,8 +70,16 @@ namespace Mango.Services.OrderApi.Controllers
                     CancelUrl = stripeRequestDto.CancelUrl,
                     LineItems = new List<SessionLineItemOptions>(),
                     Mode = "payment",
+                    
                 };
-                foreach(var item in stripeRequestDto.OrderHeader.OrderDetails)
+                var discountObj = new List<SessionDiscountOptions>()
+                {
+                    new SessionDiscountOptions
+                    {
+                        Coupon = stripeRequestDto.OrderHeader.CouponCode
+                    }
+                };
+                foreach (var item in stripeRequestDto.OrderHeader.OrderDetails)
                 {
                     var sessionLineItem = new SessionLineItemOptions
                     {
@@ -88,6 +97,10 @@ namespace Mango.Services.OrderApi.Controllers
                     };
                     options.LineItems.Add(sessionLineItem);
                 }
+                if(stripeRequestDto.OrderHeader.Discount>0)
+                {
+                    options.Discounts = discountObj;
+                }
                 var service = new Stripe.Checkout.SessionService();
                 Session session = service.Create(options);
                 stripeRequestDto.StripeSessionUrl = session.Url;
@@ -99,6 +112,36 @@ namespace Mango.Services.OrderApi.Controllers
             catch (Exception ex)
             {
 
+                _response.IsSuccess = false;
+                _response.Message = ex.Message;
+            }
+            return _response;
+        }
+
+        [Authorize]
+        [HttpPost("ValidateStripeSession")]
+
+        public async Task<ResponseDto> ValidateStripeSession([FromBody] int orderId)
+        {
+            try
+            {
+                OrderHeader orderHeader = _appDbContext.OrderHeaders.First(x => x.OrderHeaderId == orderId);
+                StripeConfiguration.ApiKey = "sk_test_51RgRt4Cz4uAQqYZbwPiZUjvOq5XOJRJVKF4rinowwgLDOMXYAkmnMLCo9UAs9h4esSVCC5SlI8d82KievH6fMA4900lusDw2Xw";
+                var service = new Stripe.Checkout.SessionService();
+                Session session = service.Get(orderHeader.StripSessionId);
+                var paymentIntentService = new PaymentIntentService();
+                PaymentIntent paymentIntent = paymentIntentService.Get(session.PaymentIntentId);
+                if(paymentIntent.Status =="succeeded")
+                {
+                    //  then payemnt was successfull
+                    orderHeader.PaymentIntentId = paymentIntent.Id;
+                    orderHeader.Status = SD.Status_Approved;
+                    _appDbContext.SaveChanges();
+                    _response.Result = _mapper.Map<OrderHeaderDto>(orderHeader);
+                }
+            }
+            catch(Exception ex)
+            {
                 _response.IsSuccess = false;
                 _response.Message = ex.Message;
             }

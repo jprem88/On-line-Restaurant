@@ -3,6 +3,46 @@
   "WorkspaceRootPath": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|f:\\prem_project\\restorentproject\\on-line-restaurant\\mango.web\\controllers\\shopingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\controllers\\shopingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|f:\\prem_project\\restorentproject\\on-line-restaurant\\mango.web\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36B2E74A-53A6-41B9-BADE-AB29E38CB3DD}|Mango.Services.OrderApi\\Mango.Services.OrderApi.csproj|f:\\prem_project\\restorentproject\\on-line-restaurant\\mango.services.orderapi\\controllers\\orderapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36B2E74A-53A6-41B9-BADE-AB29E38CB3DD}|Mango.Services.OrderApi\\Mango.Services.OrderApi.csproj|solutionrelative:mango.services.orderapi\\controllers\\orderapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|f:\\prem_project\\restorentproject\\on-line-restaurant\\mango.web\\service\\iservice\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\service\\iservice\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|f:\\prem_project\\restorentproject\\on-line-restaurant\\mango.web\\utlility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\utlility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36B2E74A-53A6-41B9-BADE-AB29E38CB3DD}|Mango.Services.OrderApi\\Mango.Services.OrderApi.csproj|f:\\prem_project\\restorentproject\\on-line-restaurant\\mango.services.orderapi\\utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36B2E74A-53A6-41B9-BADE-AB29E38CB3DD}|Mango.Services.OrderApi\\Mango.Services.OrderApi.csproj|solutionrelative:mango.services.orderapi\\utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|f:\\prem_project\\restorentproject\\on-line-restaurant\\mango.web\\models\\orderheaderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\models\\orderheaderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|f:\\prem_project\\restorentproject\\on-line-restaurant\\mango.web\\views\\shopingcart\\confirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\views\\shopingcart\\confirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|f:\\prem_project\\restorentproject\\on-line-restaurant\\mango.web\\service\\iservice\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\service\\iservice\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|f:\\prem_project\\restorentproject\\on-line-restaurant\\mango.web\\controllers\\couponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\controllers\\couponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9428466A-A52C-4D66-BDCE-B2B82521675F}|Mango.Services.ShopingCartApi\\Mango.Services.ShopingCartApi.csproj|f:\\prem_project\\restorentproject\\on-line-restaurant\\mango.services.shopingcartapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9428466A-A52C-4D66-BDCE-B2B82521675F}|Mango.Services.ShopingCartApi\\Mango.Services.ShopingCartApi.csproj|solutionrelative:mango.services.shopingcartapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +51,8 @@
       "RelativeMoniker": "D:0:0:{C3C2C848-3658-4E9C-B551-58450ECF380D}|Mango.Services.CouponApi\\Mango.Services.CouponApi.csproj|solutionrelative:mango.services.couponapi\\controllers\\couponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|f:\\prem_project\\restorentproject\\on-line-restaurant\\mango.web\\controllers\\couponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\controllers\\couponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|f:\\prem_project\\restorentproject\\on-line-restaurant\\mango.web\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|f:\\prem_project\\restorentproject\\on-line-restaurant\\mango.web\\service\\iservice\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\service\\iservice\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|f:\\prem_project\\restorentproject\\on-line-restaurant\\mango.web\\service\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,18 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|f:\\prem_project\\restorentproject\\on-line-restaurant\\mango.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|f:\\prem_project\\restorentproject\\on-line-restaurant\\mango.web\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36B2E74A-53A6-41B9-BADE-AB29E38CB3DD}|Mango.Services.OrderApi\\Mango.Services.OrderApi.csproj|f:\\prem_project\\restorentproject\\on-line-restaurant\\mango.services.orderapi\\controllers\\orderapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36B2E74A-53A6-41B9-BADE-AB29E38CB3DD}|Mango.Services.OrderApi\\Mango.Services.OrderApi.csproj|solutionrelative:mango.services.orderapi\\controllers\\orderapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|f:\\prem_project\\restorentproject\\on-line-restaurant\\mango.web\\controllers\\shopingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\controllers\\shopingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36B2E74A-53A6-41B9-BADE-AB29E38CB3DD}|Mango.Services.OrderApi\\Mango.Services.OrderApi.csproj|f:\\prem_project\\restorentproject\\on-line-restaurant\\mango.services.orderapi\\models\\dto\\striperequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|f:\\prem_project\\restorentproject\\on-line-restaurant\\mango.web\\models\\striperequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\models\\striperequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|f:\\prem_project\\restorentproject\\on-line-restaurant\\mango.web\\service\\iservice\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\service\\iservice\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36B2E74A-53A6-41B9-BADE-AB29E38CB3DD}|Mango.Services.OrderApi\\Mango.Services.OrderApi.csproj|f:\\prem_project\\restorentproject\\on-line-restaurant\\mango.services.orderapi\\models\\dto\\orderdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,24 +111,12 @@
       "RelativeMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\views\\product\\createproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|f:\\prem_project\\restorentproject\\on-line-restaurant\\mango.web\\models\\orderheaderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\models\\orderheaderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|f:\\prem_project\\restorentproject\\on-line-restaurant\\mango.web\\models\\orderdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\models\\orderdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|f:\\prem_project\\restorentproject\\on-line-restaurant\\mango.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|f:\\prem_project\\restorentproject\\on-line-restaurant\\mango.web\\utlility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4AF82B4-08C2-4F55-9A7A-E7907C42ACB1}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\utlility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36B2E74A-53A6-41B9-BADE-AB29E38CB3DD}|Mango.Services.OrderApi\\Mango.Services.OrderApi.csproj|f:\\prem_project\\restorentproject\\on-line-restaurant\\mango.services.orderapi\\utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36B2E74A-53A6-41B9-BADE-AB29E38CB3DD}|Mango.Services.OrderApi\\Mango.Services.OrderApi.csproj|solutionrelative:mango.services.orderapi\\utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -122,37 +126,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 185,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Services.ShopingCartApi\\Program.cs",
-              "RelativeDocumentMoniker": "Mango.Services.ShopingCartApi\\Program.cs",
-              "ToolTip": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Services.ShopingCartApi\\Program.cs",
-              "RelativeToolTip": "Mango.Services.ShopingCartApi\\Program.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAADgAAAALAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "OrderApiController.cs",
+              "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Services.OrderApi\\Controllers\\OrderApiController.cs",
+              "RelativeDocumentMoniker": "Mango.Services.OrderApi\\Controllers\\OrderApiController.cs",
+              "ToolTip": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Services.OrderApi\\Controllers\\OrderApiController.cs",
+              "RelativeToolTip": "Mango.Services.OrderApi\\Controllers\\OrderApiController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAAAHkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T05:04:01.353Z",
+              "WhenOpened": "2025-07-06T08:06:45.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CartService.cs",
-              "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Service\\CartService.cs",
-              "RelativeDocumentMoniker": "Mango.Web\\Service\\CartService.cs",
-              "ToolTip": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Service\\CartService.cs",
-              "RelativeToolTip": "Mango.Web\\Service\\CartService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "SD.cs",
+              "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Services.OrderApi\\Utility\\SD.cs",
+              "RelativeDocumentMoniker": "Mango.Services.OrderApi\\Utility\\SD.cs",
+              "ToolTip": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Services.OrderApi\\Utility\\SD.cs",
+              "RelativeToolTip": "Mango.Services.OrderApi\\Utility\\SD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T04:44:16.139Z",
+              "WhenOpened": "2025-07-06T08:01:10.462Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "SD.cs",
+              "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Utlility\\SD.cs",
+              "RelativeDocumentMoniker": "Mango.Web\\Utlility\\SD.cs",
+              "ToolTip": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Utlility\\SD.cs",
+              "RelativeToolTip": "Mango.Web\\Utlility\\SD.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T08:34:12.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Service\\IService\\IOrderService.cs",
+              "RelativeDocumentMoniker": "Mango.Web\\Service\\IService\\IOrderService.cs",
+              "ToolTip": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Service\\IService\\IOrderService.cs",
+              "RelativeToolTip": "Mango.Web\\Service\\IService\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T08:42:00.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Service\\OrderService.cs",
+              "RelativeDocumentMoniker": "Mango.Web\\Service\\OrderService.cs",
+              "ToolTip": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Service\\OrderService.cs",
+              "RelativeToolTip": "Mango.Web\\Service\\OrderService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T08:41:41.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShopingCartController.cs",
+              "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Controllers\\ShopingCartController.cs",
+              "RelativeDocumentMoniker": "Mango.Web\\Controllers\\ShopingCartController.cs",
+              "ToolTip": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Controllers\\ShopingCartController.cs",
+              "RelativeToolTip": "Mango.Web\\Controllers\\ShopingCartController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAEwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T09:30:28.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderHeaderDto.cs",
+              "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Models\\OrderHeaderDto.cs",
+              "RelativeDocumentMoniker": "Mango.Web\\Models\\OrderHeaderDto.cs",
+              "ToolTip": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Models\\OrderHeaderDto.cs",
+              "RelativeToolTip": "Mango.Web\\Models\\OrderHeaderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T09:30:00.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CouponController.cs",
+              "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Controllers\\CouponController.cs",
+              "RelativeDocumentMoniker": "Mango.Web\\Controllers\\CouponController.cs",
+              "ToolTip": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Controllers\\CouponController.cs",
+              "RelativeToolTip": "Mango.Web\\Controllers\\CouponController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAkwCwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T09:53:54.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ICartService.cs",
               "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Service\\IService\\ICartService.cs",
               "RelativeDocumentMoniker": "Mango.Web\\Service\\IService\\ICartService.cs",
@@ -165,33 +247,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BaseService.cs",
-              "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Service\\BaseService.cs",
-              "RelativeDocumentMoniker": "Mango.Web\\Service\\BaseService.cs",
-              "ToolTip": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Service\\BaseService.cs",
-              "RelativeToolTip": "Mango.Web\\Service\\BaseService.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAAAEsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T04:44:16.226Z",
+              "DocumentIndex": 7,
+              "Title": "Confirmation.cshtml",
+              "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Views\\ShopingCart\\Confirmation.cshtml",
+              "RelativeDocumentMoniker": "Mango.Web\\Views\\ShopingCart\\Confirmation.cshtml",
+              "ToolTip": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Views\\ShopingCart\\Confirmation.cshtml",
+              "RelativeToolTip": "Mango.Web\\Views\\ShopingCart\\Confirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T16:39:41.756Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IBaseService.cs",
-              "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Service\\IService\\IBaseService.cs",
-              "RelativeDocumentMoniker": "Mango.Web\\Service\\IService\\IBaseService.cs",
-              "ToolTip": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Service\\IService\\IBaseService.cs",
-              "RelativeToolTip": "Mango.Web\\Service\\IService\\IBaseService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T04:51:15.195Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "CouponController.cs",
               "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Services.CouponApi\\Controllers\\CouponController.cs",
               "RelativeDocumentMoniker": "Mango.Services.CouponApi\\Controllers\\CouponController.cs",
@@ -204,32 +273,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "OrderApiController.cs",
-              "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Services.OrderApi\\Controllers\\OrderApiController.cs",
-              "RelativeDocumentMoniker": "Mango.Services.OrderApi\\Controllers\\OrderApiController.cs",
-              "ToolTip": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Services.OrderApi\\Controllers\\OrderApiController.cs",
-              "RelativeToolTip": "Mango.Services.OrderApi\\Controllers\\OrderApiController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAAAD8AAAAPAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "IBaseService.cs",
+              "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Service\\IService\\IBaseService.cs",
+              "RelativeDocumentMoniker": "Mango.Web\\Service\\IService\\IBaseService.cs",
+              "ToolTip": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Service\\IService\\IBaseService.cs",
+              "RelativeToolTip": "Mango.Web\\Service\\IService\\IBaseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T08:06:45.393Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CouponController.cs",
-              "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Controllers\\CouponController.cs",
-              "RelativeDocumentMoniker": "Mango.Web\\Controllers\\CouponController.cs",
-              "ToolTip": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Controllers\\CouponController.cs",
-              "RelativeToolTip": "Mango.Web\\Controllers\\CouponController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAACsAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T09:53:54.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T04:51:15.195Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Service\\BaseService.cs",
+              "RelativeDocumentMoniker": "Mango.Web\\Service\\BaseService.cs",
+              "ToolTip": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Service\\BaseService.cs",
+              "RelativeToolTip": "Mango.Web\\Service\\BaseService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAEsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T04:44:16.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Services.ShopingCartApi\\Program.cs",
+              "RelativeDocumentMoniker": "Mango.Services.ShopingCartApi\\Program.cs",
+              "ToolTip": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Services.ShopingCartApi\\Program.cs",
+              "RelativeToolTip": "Mango.Services.ShopingCartApi\\Program.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T05:04:01.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Service\\CartService.cs",
+              "RelativeDocumentMoniker": "Mango.Web\\Service\\CartService.cs",
+              "ToolTip": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Service\\CartService.cs",
+              "RelativeToolTip": "Mango.Web\\Service\\CartService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T04:44:16.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "OrderHeader.cs",
               "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Services.OrderApi\\Models\\OrderHeader.cs",
               "RelativeDocumentMoniker": "Mango.Services.OrderApi\\Models\\OrderHeader.cs",
@@ -241,33 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Service\\OrderService.cs",
-              "RelativeDocumentMoniker": "Mango.Web\\Service\\OrderService.cs",
-              "ToolTip": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Service\\OrderService.cs",
-              "RelativeToolTip": "Mango.Web\\Service\\OrderService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAgwB0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T08:41:41.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ShopingCartController.cs",
-              "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Controllers\\ShopingCartController.cs",
-              "RelativeDocumentMoniker": "Mango.Web\\Controllers\\ShopingCartController.cs",
-              "ToolTip": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Controllers\\ShopingCartController.cs",
-              "RelativeToolTip": "Mango.Web\\Controllers\\ShopingCartController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAiwB0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T09:30:28.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\appsettings.json",
               "RelativeDocumentMoniker": "Mango.Web\\appsettings.json",
@@ -275,12 +344,11 @@
               "RelativeToolTip": "Mango.Web\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-06T08:33:33.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-06T08:33:33.73Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "OrderHeaderDto.cs",
               "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Services.OrderApi\\Models\\Dto\\OrderHeaderDto.cs",
               "RelativeDocumentMoniker": "Mango.Services.OrderApi\\Models\\Dto\\OrderHeaderDto.cs",
@@ -292,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "StripeRequestDto.cs",
               "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Services.OrderApi\\Models\\Dto\\StripeRequestDto.cs",
               "RelativeDocumentMoniker": "Mango.Services.OrderApi\\Models\\Dto\\StripeRequestDto.cs",
@@ -304,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "MappingConfig.cs",
               "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Services.OrderApi\\MappingConfig.cs",
               "RelativeDocumentMoniker": "Mango.Services.OrderApi\\MappingConfig.cs",
@@ -316,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "StripeRequestDto.cs",
               "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Models\\StripeRequestDto.cs",
               "RelativeDocumentMoniker": "Mango.Web\\Models\\StripeRequestDto.cs",
@@ -328,19 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IOrderService.cs",
-              "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Service\\IService\\IOrderService.cs",
-              "RelativeDocumentMoniker": "Mango.Web\\Service\\IService\\IOrderService.cs",
-              "ToolTip": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Service\\IService\\IOrderService.cs",
-              "RelativeToolTip": "Mango.Web\\Service\\IService\\IOrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T08:42:00.734Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "OrderDetailsDto.cs",
               "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Services.OrderApi\\Models\\Dto\\OrderDetailsDto.cs",
               "RelativeDocumentMoniker": "Mango.Services.OrderApi\\Models\\Dto\\OrderDetailsDto.cs",
@@ -352,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "StripInfo.txt",
               "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Services.OrderApi\\PaymentGetwayInfo\\StripInfo.txt",
               "RelativeDocumentMoniker": "Mango.Services.OrderApi\\PaymentGetwayInfo\\StripInfo.txt",
@@ -364,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Services.OrderApi\\Models\\Dto\\ProductDto.cs",
               "RelativeDocumentMoniker": "Mango.Services.OrderApi\\Models\\Dto\\ProductDto.cs",
@@ -376,7 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "CreateProduct.cshtml",
               "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Views\\Product\\CreateProduct.cshtml",
               "RelativeDocumentMoniker": "Mango.Web\\Views\\Product\\CreateProduct.cshtml",
@@ -388,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "CartIndex.cshtml",
               "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Views\\ShopingCart\\CartIndex.cshtml",
               "RelativeDocumentMoniker": "Mango.Web\\Views\\ShopingCart\\CartIndex.cshtml",
@@ -400,7 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "Checkout.cshtml",
               "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Views\\ShopingCart\\Checkout.cshtml",
               "RelativeDocumentMoniker": "Mango.Web\\Views\\ShopingCart\\Checkout.cshtml",
@@ -412,19 +468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "OrderHeaderDto.cs",
-              "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Models\\OrderHeaderDto.cs",
-              "RelativeDocumentMoniker": "Mango.Web\\Models\\OrderHeaderDto.cs",
-              "ToolTip": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Models\\OrderHeaderDto.cs",
-              "RelativeToolTip": "Mango.Web\\Models\\OrderHeaderDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T09:30:00.553Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "OrderDetailsDto.cs",
               "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Models\\OrderDetailsDto.cs",
               "RelativeDocumentMoniker": "Mango.Web\\Models\\OrderDetailsDto.cs",
@@ -436,7 +480,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Program.cs",
               "RelativeDocumentMoniker": "Mango.Web\\Program.cs",
@@ -445,30 +489,6 @@
               "ViewState": "AgIAAAwAAAAAAAAAAIBJwB8AAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-06T08:34:39.986Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "SD.cs",
-              "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Utlility\\SD.cs",
-              "RelativeDocumentMoniker": "Mango.Web\\Utlility\\SD.cs",
-              "ToolTip": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Web\\Utlility\\SD.cs",
-              "RelativeToolTip": "Mango.Web\\Utlility\\SD.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T08:34:12.465Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "SD.cs",
-              "DocumentMoniker": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Services.OrderApi\\Utility\\SD.cs",
-              "RelativeDocumentMoniker": "Mango.Services.OrderApi\\Utility\\SD.cs",
-              "ToolTip": "F:\\Prem_Project\\RestorentProject\\On-line-Restaurant\\Mango.Services.OrderApi\\Utility\\SD.cs",
-              "RelativeToolTip": "Mango.Services.OrderApi\\Utility\\SD.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T08:01:10.462Z"
             }
           ]
         }

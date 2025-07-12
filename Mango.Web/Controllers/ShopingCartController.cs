@@ -1,6 +1,7 @@
 ﻿
 using Mango.Web.Models;
 using Mango.Web.Service.IService;
+using Mango.Web.Utlility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -49,8 +50,8 @@ namespace Mango.Web.Controllers
                 var domain = Request.Scheme + "://" + Request.Host.Value+"/";
                 StripeRequestDto stripeRequestDto = new()
                 {
-                    ApproveUrl = domain + "cart/Confirmation?orderId=" + order.OrderHeaderId,
-                    CancelUrl = domain + "cart/checkout",
+                    ApproveUrl = domain + "shopingCart/Confirmation?orderId=" + order.OrderHeaderId,
+                    CancelUrl = domain + "shopingCart/checkout",
                     OrderHeader = order
                 };
                 var stripeResponse = await _orderService.CreateStripeSessionAsync(stripeRequestDto);
@@ -67,7 +68,16 @@ namespace Mango.Web.Controllers
         [Authorize]
         public async Task<IActionResult> Confirmation(int orderId)
         {
-            
+            ResponseDto responseDto = await _orderService.ValidateStripeSessionAsync(orderId);
+            if(responseDto !=null && responseDto.IsSuccess)
+            {
+                OrderHeaderDto orderHeaderDto = JsonConvert.DeserializeObject<OrderHeaderDto>(Convert.ToString(responseDto.Result));
+                if(orderHeaderDto.Status == SD.Status_Approved)
+                {
+                    return View(orderId);
+                }
+            }
+            ////////  refirect to some other error page
             return View(orderId);
         }
 
