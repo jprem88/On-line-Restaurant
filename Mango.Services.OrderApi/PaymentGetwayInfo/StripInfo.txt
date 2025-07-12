@@ -1,0 +1,12 @@
+﻿Required for Strop payment getway implemaintaion
+
+1- Session ID
+2-URL
+3-Back/Cancel Url
+4- Approved Url
+5- order header dto
+
+to integrate stripe search in google
+stripe session documentation .net 
+and open link  after added code 
+go to stripe.com and there will get api key
