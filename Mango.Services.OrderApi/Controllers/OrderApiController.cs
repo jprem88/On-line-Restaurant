@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
+using Mongo.MessageBus;
 using Stripe;
 using Stripe.Checkout;
 
@@ -21,12 +22,17 @@ namespace Mango.Services.OrderApi.Controllers
         private IMapper _mapper;
         private IProductService _prouctService;
         private readonly AppDbContext _appDbContext;
-        public OrderApiController(IMapper mapper, AppDbContext appDbContext, IProductService productService)
+        private readonly IMessageBus _messageBus;
+        private readonly IConfiguration _configuration;
+
+        public OrderApiController(IMapper mapper, AppDbContext appDbContext, IProductService productService, IMessageBus messageBus, IConfiguration configuration)
         {
             _response = new ResponseDto();
             this._prouctService = productService;
             _appDbContext = appDbContext;
             _mapper = mapper;
+            _messageBus = messageBus;
+            _configuration = configuration;
         }
 
         [Authorize]
@@ -137,6 +143,13 @@ namespace Mango.Services.OrderApi.Controllers
                     orderHeader.PaymentIntentId = paymentIntent.Id;
                     orderHeader.Status = SD.Status_Approved;
                     _appDbContext.SaveChanges();
+                    RewardDto rewardDto = new()
+                    {
+                        OrderId = orderHeader.OrderHeaderId,
+                        RewardsActivity = Convert.ToInt32(orderHeader.OrderTotal),
+                        UserId = orderHeader.UserId
+                    };
+                    await _messageBus.PublishMessage(rewardDto, _configuration.GetValue<string>("TopicQueueName:OrderCompletedQueue"));
                     _response.Result = _mapper.Map<OrderHeaderDto>(orderHeader);
                 }
             }
