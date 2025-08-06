@@ -1,4 +1,4 @@
-﻿using Mango.Services.EmailApi.Messaging;
+﻿//using Mango.Services.EmailApi.Messaging;
 using Mango.Services.RewardApi.Messaging;
 using System.Runtime.CompilerServices;
 

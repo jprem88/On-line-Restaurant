@@ -7,6 +7,7 @@ using Mango.Services.OrderApi.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Mongo.MessageBus;
 using Stripe;
@@ -160,6 +161,84 @@ namespace Mango.Services.OrderApi.Controllers
             }
             return _response;
         }
+
+        [Authorize]
+        [HttpGet("GetOrders")]
+        public async Task<ResponseDto> GetOrders(string userId ="")
+        {
+            try
+            {
+                IEnumerable<OrderHeader> orderlistObj;
+                if(User.IsInRole(SD.RoleAdmin))
+                {
+                    orderlistObj = _appDbContext.OrderHeaders.Include(x => x.OrderDetails).OrderByDescending(x=>x.OrderHeaderId);
+                }
+                else
+                {
+                    orderlistObj = _appDbContext.OrderHeaders.Include(x => x.OrderDetails).Where(x=>x.UserId ==userId).OrderByDescending(x => x.OrderHeaderId);
+                }
+                _response.Result = _mapper.Map<List<OrderHeaderDto>>(orderlistObj);
+            }
+            catch(Exception ex)
+            {
+                _response.IsSuccess = false;
+                _response.Message = ex.Message;
+            }
+            return _response;
+        }
+
+
+        [Authorize]
+        [HttpGet("GetOrder/{id:int}")]
+        public async Task<ResponseDto> GetOrder(int id)
+        {
+            try
+            {
+                var orderHeader = _appDbContext.OrderHeaders.Include(x => x.OrderDetails).First(x => x.OrderHeaderId == id);
+                _response.Result = _mapper.Map<OrderHeaderDto>(orderHeader);
+            }
+            catch (Exception ex)
+            {
+                _response.IsSuccess = false;
+                _response.Message = ex.Message;
+            }
+            return _response;
+        }
+
+        [Authorize]
+        [HttpPost("UpdateOrderStatus/{orderid:int}")]
+        public async Task<ResponseDto> UpdateOrderStatus(int orderid,[FromBody] string newstatus)
+        {
+            try
+            {
+                StripeConfiguration.ApiKey = "sk_test_51RgRt4Cz4uAQqYZbwPiZUjvOq5XOJRJVKF4rinowwgLDOMXYAkmnMLCo9UAs9h4esSVCC5SlI8d82KievH6fMA4900lusDw2Xw";
+                var orderHeader = _appDbContext.OrderHeaders.First(x => x.OrderHeaderId == orderid);
+                if(orderHeader !=null)
+                {
+                    if(newstatus ==SD.Status_Cancelled)
+                    {
+                        ///// refund amount to user
+                        var option = new RefundCreateOptions
+                        {
+                            Reason = RefundReasons.RequestedByCustomer,
+                            PaymentIntent = orderHeader.PaymentIntentId
+                        };
+                        var service = new RefundService();
+                        var refund = service.Create(option);
+                    }
+                    orderHeader.Status = newstatus;
+                    _appDbContext.SaveChanges();
+                }
+            }
+            catch(Exception ex)
+            {
+                _response.IsSuccess = false;
+                _response.Message = ex.Message;
+            }
+            return _response;
+        }
+            
+
 
     }
 }
