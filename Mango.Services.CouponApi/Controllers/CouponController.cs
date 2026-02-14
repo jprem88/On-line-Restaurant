@@ -106,6 +106,7 @@ namespace Mango.Services.CouponApi.Controllers
         }
 
         [HttpPut]
+        [Authorize(Roles = "ADMIN")]
         public ResponseDto Put([FromBody] CouponDto coupon)
         {
             try

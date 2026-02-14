@@ -1,0 +1,8 @@
+Id
+Name
+Age
+Gender
+Bank Account
+Bank name
+Branch Name
+IFSC Code

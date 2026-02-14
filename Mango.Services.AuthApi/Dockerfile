@@ -1,30 +1,25 @@
-# See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
-
-# This stage is used when running from VS in fast mode (Default for Debug configuration)
-FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
-WORKDIR /app
-EXPOSE 80
-EXPOSE 443
-
-
-# This stage is used to build the service project
+# Stage 1: Build
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
-ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["Mango.Services.AuthApi/Mango.Services.AuthApi.csproj", "Mango.Services.AuthApi/"]
-COPY ["Mongo.MessageBus/Mongo.MessageBus.csproj", "Mongo.MessageBus/"]
-RUN dotnet restore "./Mango.Services.AuthApi/Mango.Services.AuthApi.csproj"
+
+# Copy everything from solution root (build context)
 COPY . .
-WORKDIR "/src/Mango.Services.AuthApi"
-RUN dotnet build "./Mango.Services.AuthApi.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
-# This stage is used to publish the service project to be copied to the final stage
-FROM build AS publish
-ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./Mango.Services.AuthApi.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+# Restore dependencies for this API project
+RUN dotnet restore "Mango.Services.AuthApi/Mango.Services.AuthApi.csproj"
 
-# This stage is used in production or when running from VS in regular mode (Default when not using the Debug configuration)
-FROM base AS final
+# Build this API project
+RUN dotnet build "Mango.Services.AuthApi/Mango.Services.AuthApi.csproj" -c Release -o /app/build
+
+# Publish this API project
+RUN dotnet publish "Mango.Services.AuthApi/Mango.Services.AuthApi.csproj" -c Release -o /app/publish
+
+# Stage 2: Runtime
+FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS runtime
 WORKDIR /app
-COPY --from=publish /app/publish .
+
+# Copy published output
+COPY --from=build /app/publish .
+
+# Set entrypoint
 ENTRYPOINT ["dotnet", "Mango.Services.AuthApi.dll"]

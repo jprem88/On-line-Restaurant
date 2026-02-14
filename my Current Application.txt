@@ -1,0 +1,3 @@
+my Current Application
+
+User ->DNS ->Load Balancer ->IDentity Server -> MVC App ->WebApi-> database 

@@ -1,0 +1,65 @@
+version: '3.4'
+
+services:
+  authapi:
+    build:
+      context: .
+      dockerfile: Mango.Services.AuthApi/Dockerfile
+    ports:
+      - "7002:80"
+
+  couponapi:
+    build:
+      context: .
+      dockerfile: Mango.Services.CouponApi/Dockerfile
+    ports:
+      - "7001:80"
+
+  emailapi:
+    build:
+      context: .
+      dockerfile: Mango.Services.EmailApi/Dockerfile
+    ports:
+      - "7077:80"
+
+  orderapi:
+    build:
+      context: .
+      dockerfile: Mango.Services.OrderApi/Dockerfile
+    ports:
+      - "7005:80"
+
+  productapi:
+    build:
+      context: .
+      dockerfile: Mango.Services.ProductApi/Dockerfile
+    ports:
+      - "7003:80"
+
+  rewardapi:
+    build:
+      context: .
+      dockerfile: Mango.Services.RewardApi/Dockerfile
+    ports:
+      - "8006:80"
+
+  shoppingcartapi:
+    build:
+      context: .
+      dockerfile: Mango.Services.ShopingCartApi/Dockerfile
+    ports:
+      - "7004:80"
+
+  gateway:
+    build:
+      context: .
+      dockerfile: Mango.GateWaySolution/Dockerfile
+    ports:
+      - "7777:80"
+
+  web:
+    build:
+      context: .
+      dockerfile: Mango.Web/Dockerfile
+    ports:
+      - "7059:80"
