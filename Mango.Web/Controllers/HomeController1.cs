@@ -8,5 +8,10 @@ namespace Mango.Web.Controllers
         {
             return View();
         }
+
+        public IActionResult ShowHome(int id)
+        {
+            return View();
+        }
     }
 }
